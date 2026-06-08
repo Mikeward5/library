@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <header></header>
+    <form id="addForm" method="POST" action="#">
+        <label for="title">Title</label>
+        <input type="text" id="title" name="title" />
+        <br>
+        <label for="author">Author</label>
+        <input type="text" id="author" name="author" />
+        <br>
+        <label for="pages">Pages</label>
+        <input type="number" id="pages" name="pages" />
+        <legend>Have you already read this?</legend>
+        <input type="radio" id="true-option" name="isTrue" value="true" required>
+        <label for="true-option">True</label><br>
+
+        <input type="radio" id="false-option" name="isTrue" value="false">
+        <label for="false-option">False</label>
+        <br>
+        <button id="sub" type="submit">Submit</button>
+    </form>
+    
+</body>
+</html>
